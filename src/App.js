@@ -42,8 +42,8 @@ function App() {
   console.log(carrinho)
   return (
     <div className="App">
-      <Form products={products} setProducts={setProducts} handleBuy={handleBuy}/>
-      <ListItens products={products}/>
+      <Form products={products} setProducts={setProducts}/>
+      <ListItens products={products} handleBuy={handleBuy}/>
     </div>
   );
 }
